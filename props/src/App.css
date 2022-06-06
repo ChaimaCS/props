@@ -1,0 +1,48 @@
+.ProfilePhoto{
+  height: 400px;
+  text-align: center;
+}
+.pic{
+  display: flex;
+  text-align: center;
+  justify-content:center;
+}
+.clearfix{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+margin-bottom: 100px;
+color: grey;
+}
+.col-md-4 {
+  margin-bottom: 5px;
+}
+
+.card {
+  padding: 5px;
+  border: solid 1px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  display: inline-block;
+ width: 500px;
+  text-align: center;
+  justify-content:center;
+
+}
+.card:hover {
+  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.08);
+}
+
+
+.card-text .fa {
+  font-size: 26px;
+}
+.avatar {
+  width: 140px;
+  margin: auto;
+  border: solid 6px transparent;
+  border-radius: 45%;
+}
+
+.card:hover .avatar {
+  border-color: rgb(190, 224, 200);
+}
