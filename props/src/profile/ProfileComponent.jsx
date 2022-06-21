@@ -1,6 +1,7 @@
+  import React from 'react';
   import PropTypes from 'prop-types';
   
-const Profile = ({children,fullname,bio,profession,alerts})=>{
+const Profile = ({children,fullname,handleName,bio,profession,alerts})=>{
     
     return(
         <div>
@@ -11,7 +12,7 @@ const Profile = ({children,fullname,bio,profession,alerts})=>{
     <h3>{profession}</h3>
 
     <p className="card-text">{bio}</p>
-    <a href="/" className="btn btn-primary" onClick={alerts}>User Name</a>
+    <a href="/" className="btn btn-primary" onClick={()=>handleName(fullname)}>User Name</a>
   </div>
 </div>
    </div>
